@@ -32,7 +32,15 @@ const translations = {
         'contact.title': 'Contact Us',
         'contact.developer': 'Developer',
         'contact.content_creator': 'Content Creator',
-        'contact.support': 'Support'
+        'contact.support': 'Support',
+        'about.quote_translation': 'Listen to how the ney complains, telling tales of separation.',
+        'about.paragraph1': 'Dear Ney enthusiasts, we have prepared the NeyzenCe app hoping to provide you with relative ease in the challenging journey of learning the Ney.',
+        'about.paragraph2': 'It should not be forgotten that the Ney, in its most beautiful and correct form, should be learned through apprenticeship with a master teacher. Our aim is only to support those who cannot find this opportunity for various reasons.',
+        'about.paragraph3': 'May your breath say "Hû". With our respect, greetings, and love.',
+        'footer.terms': 'Terms of Service',
+        'footer.privacy': 'Privacy Policy',
+        'footer.contact': 'Contact',
+        'footer.copyright': '&copy; 2024 NeyzenCe. All rights reserved. All musical content by Neyzen Cemil Baştürk.'
     },
     tr: {
         'nav.home': 'Ana Sayfa',
@@ -64,7 +72,15 @@ const translations = {
         'contact.title': 'Bize Ulaşın',
         'contact.developer': 'Geliştirici',
         'contact.content_creator': 'İçerik Oluşturucu',
-        'contact.support': 'Destek'
+        'contact.support': 'Destek',
+        'about.quote_translation': 'Neyin nasıl şikayet ettiğini dinle, ayrılık hikayelerini anlatıyor.',
+        'about.paragraph1': 'Sevgili Ney sevdalıları, NeyzenCe uygulamasını, Ney öğrenmenin zorlu yolculuğunda size göreceli kolaylık sağlama umudıyla hazırladık.',
+        'about.paragraph2': 'Unutulmamalıdır ki Ney, en güzel ve doğru haliyle, bir usta öğretmenle çıraklık yaparak öğrenilmelidir. Bizim amacımız sadece çeşitli nedenlerle bu fırsatı bulamayanlara destek olmaktır.',
+        'about.paragraph3': 'Nefesiniz "Hû" desin. Saygılarımız, selamlarımız ve sevgimizle.',
+        'footer.terms': 'Hizmet Şartları',
+        'footer.privacy': 'Gizlilik Politikası',
+        'footer.contact': 'İletişim',
+        'footer.copyright': '&copy; 2024 NeyzenCe. Tüm hakları saklıdır. Tüm müzikal içerik Neyzen Cemil Baştürk\'e aittir.'
     }
 };
 

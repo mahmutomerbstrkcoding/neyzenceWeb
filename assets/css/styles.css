@@ -726,21 +726,248 @@ section {
     section {
         padding: 60px 0;
     }
+
+    /* Enhanced mobile navigation */
+    .nav-container {
+        padding: 0 1rem;
+        height: 60px;
+    }
+
+    .nav-logo-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav-logo-text {
+        font-size: 1.5rem;
+    }
+
+    /* Hero section mobile improvements */
+    .hero {
+        padding: 100px 0 60px;
+        min-height: 80vh;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-icon {
+        max-width: 200px;
+    }
+
+    /* Features section mobile */
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .feature-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 1rem;
+    }
+
+    .feature-icon i {
+        font-size: 1.5rem;
+    }
+
+    /* About section mobile */
+    .about-quote {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .quote-text {
+        font-size: 1rem;
+    }
+
+    /* Contact section mobile */
+    .contact-card {
+        padding: 1.5rem;
+    }
+
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0.8rem;
+    }
+
+    .contact-icon i {
+        font-size: 1.2rem;
+    }
+
+    /* Download section mobile */
+    .download-btn img {
+        height: 50px;
+    }
+
+    /* Typography adjustments for mobile */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 480px) {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 0.8rem;
     }
 
     .btn {
         width: 100%;
         max-width: 280px;
+        padding: 1rem 1.5rem;
+        font-size: 0.9rem;
     }
 
     .download-btn img {
+        height: 45px;
+    }
+
+    /* Extra small screen adjustments */
+    .nav-container {
+        padding: 0 0.8rem;
+        height: 55px;
+    }
+
+    .nav-logo-text {
+        font-size: 1.3rem;
+    }
+
+    .hero {
+        padding: 80px 0 50px;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .hero-icon {
+        max-width: 180px;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .feature-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .about-quote {
+        padding: 1rem;
+    }
+
+    .quote-text {
+        font-size: 0.9rem;
+    }
+
+    .contact-card {
+        padding: 1.2rem;
+    }
+
+    .footer-content {
+        gap: 0.8rem;
+    }
+
+    .footer-links {
+        gap: 0.8rem;
+    }
+}
+
+/* Additional responsive enhancements */
+@media (max-width: 360px) {
+    .container {
+        padding: 0 0.8rem;
+    }
+
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        padding: 0.9rem 1.2rem;
+        font-size: 0.85rem;
+    }
+
+    .feature-card {
+        padding: 1.2rem 0.8rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+}
+
+/* Landscape mobile orientation */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        min-height: 100vh;
+        padding: 60px 0 40px;
+    }
+
+    .hero-content {
+        gap: 1.5rem;
+    }
+
+    .nav-container {
         height: 50px;
+    }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+    .btn {
+        min-height: 44px;
+        padding: 1rem 2rem;
+    }
+
+    .nav-link {
+        padding: 0.8rem 0;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+
+    .lang-btn {
+        min-height: 40px;
+        min-width: 40px;
+    }
+
+    .contact-card a {
+        min-height: 44px;
+        display: inline-block;
+        padding: 0.5rem 0;
     }
 }
 
