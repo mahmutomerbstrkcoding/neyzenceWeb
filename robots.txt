@@ -1,0 +1,51 @@
+# Robots.txt for NeyzenCe Website
+# https://neyzence.netlify.app/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all pages
+Allow: /index.html
+Allow: /terms.html
+Allow: /privacy.html
+
+# Allow assets
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/fonts/
+
+# Disallow common non-content files
+Disallow: /netlify.toml
+Disallow: /_redirects
+Disallow: /.git/
+Disallow: /.gitignore
+Disallow: /README.md
+
+# Disallow admin/development files
+Disallow: /admin/
+Disallow: /test/
+Disallow: /temp/
+Disallow: /*.log
+Disallow: /*.tmp
+Disallow: /*~
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Sitemap location
+Sitemap: https://neyzence.netlify.app/sitemap.xml
+
+# Crawl delay (optional - remove if you want faster crawling)
+# Crawl-delay: 1

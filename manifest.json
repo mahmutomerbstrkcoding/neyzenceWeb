@@ -1,0 +1,66 @@
+{
+    "name": "NeyzenCe - Learn Traditional Ney Flute",
+    "short_name": "NeyzenCe",
+    "description": "Master the traditional Turkish Ney flute with interactive lessons, music sheets, and progressive difficulty levels",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F5F3EF",
+    "theme_color": "#8B4513",
+    "orientation": "portrait-primary",
+    "lang": "en",
+    "dir": "ltr",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "assets/images/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/images/icon_transparent.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["education", "music", "lifestyle"],
+    "shortcuts": [
+        {
+            "name": "Features",
+            "short_name": "Features",
+            "description": "View NeyzenCe app features",
+            "url": "/#features",
+            "icons": [
+                {
+                    "src": "assets/images/icon.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Download",
+            "short_name": "Download",
+            "description": "Download NeyzenCe app",
+            "url": "/#download",
+            "icons": [
+                {
+                    "src": "assets/images/icon.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.neyzence.app",
+            "id": "com.neyzence.app"
+        },
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/app/neyzence"
+        }
+    ],
+    "prefer_related_applications": true
+}

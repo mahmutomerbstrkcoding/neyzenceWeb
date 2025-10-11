@@ -9,6 +9,10 @@
 
     <!-- Favicon -->
     <link rel="icon" href="assets/images/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/icon.png">
+    
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -19,6 +23,138 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="author" content="Mahmut Ömer Baştürk">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://neyzence.netlify.app/">
+    
+    <!-- Language alternates -->
+    <link rel="alternate" hreflang="en" href="https://neyzence.netlify.app/?lang=en">
+    <link rel="alternate" hreflang="tr" href="https://neyzence.netlify.app/?lang=tr">
+    <link rel="alternate" hreflang="x-default" href="https://neyzence.netlify.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://neyzence.netlify.app/">
+    <meta property="og:title" content="NeyzenCe - Learn Traditional Turkish Ney Flute">
+    <meta property="og:description" content="Master the traditional Turkish Ney flute with interactive lessons, music sheets, and progressive difficulty levels. Download NeyzenCe app for iOS and Android.">
+    <meta property="og:image" content="https://neyzence.netlify.app/assets/images/icon.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="tr_TR">
+    <meta property="og:site_name" content="NeyzenCe">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://neyzence.netlify.app/">
+    <meta property="twitter:title" content="NeyzenCe - Learn Traditional Turkish Ney Flute">
+    <meta property="twitter:description" content="Master the traditional Turkish Ney flute with interactive lessons, music sheets, and progressive difficulty levels.">
+    <meta property="twitter:image" content="https://neyzence.netlify.app/assets/images/icon.png">
+
+    <!-- App Store Links -->
+    <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID">
+    <meta name="google-play-app" content="app-id=com.neyzence.app">
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NeyzenCe",
+        "url": "https://neyzence.netlify.app",
+        "logo": "https://neyzence.netlify.app/assets/images/icon.png",
+        "description": "NeyzenCe is a comprehensive mobile app for learning the traditional Turkish Ney flute",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@neyzence.com",
+            "contactType": "customer service"
+        },
+        "founder": [
+            {
+                "@type": "Person",
+                "name": "Mahmut Ömer Baştürk",
+                "jobTitle": "Developer",
+                "email": "mahmutomerbstrk@neyzence.com"
+            },
+            {
+                "@type": "Person",
+                "name": "Cemil Baştürk",
+                "jobTitle": "Content Creator & Master Neyzen",
+                "email": "cemney@neyzence.com"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Structured Data - Mobile Application -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "NeyzenCe",
+        "description": "Learn the traditional Turkish Ney flute with interactive lessons, music sheets, and progressive difficulty levels",
+        "url": "https://neyzence.netlify.app",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": ["iOS", "Android"],
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "NeyzenCe"
+        },
+        "downloadUrl": [
+            "https://apps.apple.com/app/neyzence",
+            "https://play.google.com/store/apps/details?id=com.neyzence.app"
+        ],
+        "screenshot": "https://neyzence.netlify.app/assets/images/icon.png"
+    }
+    </script>
+
+    <!-- Structured Data - Website -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "NeyzenCe",
+        "url": "https://neyzence.netlify.app",
+        "description": "Learn the traditional Turkish Ney flute with NeyzenCe mobile app",
+        "inLanguage": ["en", "tr"],
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://neyzence.netlify.app/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Structured Data - Educational Content -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "Traditional Turkish Ney Flute Learning",
+        "description": "Master the sacred art of Ney with interactive lessons, music sheets, and progressive difficulty levels",
+        "provider": {
+            "@type": "Organization",
+            "name": "NeyzenCe"
+        },
+        "instructor": {
+            "@type": "Person",
+            "name": "Cemil Baştürk",
+            "description": "Master Neyzen with decades of experience in traditional Turkish music"
+        },
+        "educationalLevel": "Beginner to Advanced",
+        "teaches": "Traditional Turkish Ney Flute",
+        "courseMode": "online",
+        "availableLanguage": ["Turkish", "English"]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
