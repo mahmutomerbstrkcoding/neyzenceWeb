@@ -16,6 +16,9 @@ Allow: /assets/js/
 Allow: /assets/images/
 Allow: /assets/fonts/
 
+# Allow advertising files
+Allow: /app-ads.txt
+
 # Disallow common non-content files
 Disallow: /netlify.toml
 Disallow: /_redirects

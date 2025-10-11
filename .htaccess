@@ -47,5 +47,11 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# Serve app-ads.txt with correct content type
+<Files "app-ads.txt">
+    ForceType text/plain
+    Header set Cache-Control "max-age=86400"
+</Files>
+
 # Custom error pages
 ErrorDocument 404 /index.html

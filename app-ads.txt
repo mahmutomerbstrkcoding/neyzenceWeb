@@ -1,0 +1,21 @@
+# app-ads.txt for NeyzenCe App
+# This file declares authorized digital sellers for NeyzenCe mobile application
+# Learn more: https://iabtechlab.com/ads-txt/
+
+# Google AdMob
+google.com, pub-9108955313128081, DIRECT, f08c47fec0942fa0
+
+# Additional ad networks can be added here following the same format:
+# domain.com, publisher-account-id, relationship-type, certification-authority-id
+
+# Relationship types:
+# DIRECT - Direct business relationship
+# RESELLER - Reseller relationship
+
+# Example entries for other common ad networks:
+# facebook.com, YOUR_FACEBOOK_ID, DIRECT, c3e20eee3f780d68
+# unity3d.com, YOUR_UNITY_ID, DIRECT, 96cbb6fdc9ca0de2
+# applovin.com, YOUR_APPLOVIN_ID, DIRECT, 
+
+# Note: Only uncomment and use the entries above if you have accounts with those networks
+# Make sure to replace YOUR_*_ID with your actual publisher IDs
