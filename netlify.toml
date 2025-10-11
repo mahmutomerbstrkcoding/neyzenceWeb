@@ -29,17 +29,19 @@
 [[headers]]
   # Cache HTML files for shorter time
   for = "/*.html"
-  
+
   [headers.values]
     Cache-Control = "public, max-age=3600"
 
 [[headers]]
   # Serve app-ads.txt with correct content type and caching
   for = "/app-ads.txt"
-  
+
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
-    Cache-Control = "public, max-age=86400"[[redirects]]
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
   # Redirect all 404s to index.html for SPA behavior (if needed)
   from = "/*"
   to = "/index.html"
