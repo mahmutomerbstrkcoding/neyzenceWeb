@@ -1,7 +1,7 @@
 {
-    "name": "NeyzenCe - Learn Traditional Ney Flute",
+    "name": "NeyzenCe - Ney Öğren | Ney Dinle | Ney Enstrümanı Eğitimi",
     "short_name": "NeyzenCe",
-    "description": "Master the traditional Turkish Ney flute with interactive lessons, music sheets, and progressive difficulty levels",
+    "description": "NeyzenCe ile ney öğren! Ney dinle, ney notaları öğren, ney nasıl üflenir ve ney nasıl tutulur videolarıyla.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#F5F3EF",
