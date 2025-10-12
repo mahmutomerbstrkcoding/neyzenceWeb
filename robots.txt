@@ -19,6 +19,11 @@ Allow: /assets/fonts/
 # Allow advertising files
 Allow: /app-ads.txt
 
+# Allow favicon and manifest files
+Allow: /favicon.ico
+Allow: /manifest.json
+Allow: /browserconfig.xml
+
 # Disallow common non-content files
 Disallow: /netlify.toml
 Disallow: /_redirects

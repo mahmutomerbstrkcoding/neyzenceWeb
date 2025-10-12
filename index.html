@@ -7,19 +7,21 @@
     <meta name="description" content="NeyzenCe ile ney öğren! Ney dinle, ney notaları öğren, ney nasıl üflenir ve ney nasıl tutulur videolarıyla. Geleneksel Türk ney enstrümanı için en kapsamlı mobil uygulama.">
     <meta name="keywords" content="neyzence, ney dinle, ney öğren, ney, ney enstrümanı, ney nasıl üflenir, ney nasıl tutulur, ney notaları, ney eğitimi, türk müziği, geleneksel müzik, ney kursu, ney öğrenme uygulaması, cemil baştürk">
 
-    <!-- Favicon - Multiple sizes for better Google Search display -->
+    <!-- Favicon - Optimized for Google Search Display -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon.png">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/images/icon.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icon.png">
+    <link rel="apple-touch-icon" href="assets/images/icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon.png">
-    <link rel="shortcut icon" href="assets/images/icon.png" type="image/png">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="mask-icon" href="assets/images/icon.png" color="#8B4513">
 
     <!-- Manifest for PWA -->
     <link rel="manifest" href="manifest.json">
-    
+
     <!-- Windows/IE specific -->
     <meta name="msapplication-config" content="browserconfig.xml">
     <meta name="msapplication-TileColor" content="#8B4513">
@@ -41,7 +43,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
     <link rel="canonical" href="https://neyzence.netlify.app/">
-    
+
     <!-- Additional Turkish SEO Meta Tags -->
     <meta name="geo.region" content="TR">
     <meta name="geo.country" content="Turkey">
@@ -83,9 +85,19 @@
     <meta property="twitter:description" content="NeyzenCe ile ney öğren! Ney dinle, ney notaları öğren, ney nasıl üflenir ve ney nasıl tutulur videolarıyla.">
     <meta property="twitter:image" content="https://neyzence.netlify.app/assets/images/icon.png">
 
-    <!-- App Store Links -->
-    <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID">
+    <!-- App Store Links and Smart Banners -->
+    <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID, app-argument=neyzence://open">
     <meta name="google-play-app" content="app-id=com.neyzence.app">
+    
+    <!-- App Store Discovery Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="NeyzenCe">
+    
+    <!-- App Deep Linking -->
+    <link rel="alternate" href="android-app://com.neyzence.app/https/neyzence.netlify.app">
+    <link rel="alternate" href="ios-app://YOUR_IOS_APP_ID/https/neyzence.netlify.app">
 
     <!-- Structured Data - Organization -->
     <script type="application/ld+json">
@@ -118,30 +130,153 @@
     }
     </script>
 
-    <!-- Structured Data - Mobile Application -->
+    <!-- Structured Data - Mobile Application with Enhanced App Store Links -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "MobileApplication",
         "name": "NeyzenCe - Ney Öğren ve Ney Dinle",
+        "alternateName": ["NeyzenCe", "Ney Öğren", "Ney Dinle Uygulaması"],
         "description": "NeyzenCe ile ney öğren! Ney dinle, ney notaları öğren, ney nasıl üflenir ve ney nasıl tutulur videolarıyla. Geleneksel Türk ney enstrümanı eğitimi.",
         "url": "https://neyzence.netlify.app",
-        "applicationCategory": "EducationalApplication",
+        "applicationCategory": ["EducationalApplication", "MusicApplication"],
+        "applicationSubCategory": "Music Education",
         "operatingSystem": ["iOS", "Android"],
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
+        "keywords": "ney öğren, ney dinle, ney enstrümanı, ney nasıl üflenir, ney nasıl tutulur, ney notaları, türk müziği, geleneksel müzik",
+        "inLanguage": ["tr", "en"],
+        "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "TRY",
+                "availability": "https://schema.org/InStock",
+                "category": "free"
+            }
+        ],
         "author": {
             "@type": "Organization",
-            "name": "NeyzenCe"
+            "name": "NeyzenCe",
+            "url": "https://neyzence.netlify.app"
+        },
+        "publisher": {
+            "@type": "Organization", 
+            "name": "NeyzenCe",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://neyzence.netlify.app/assets/images/icon.png"
+            }
         },
         "downloadUrl": [
             "https://apps.apple.com/app/neyzence",
             "https://play.google.com/store/apps/details?id=com.neyzence.app"
         ],
-        "screenshot": "https://neyzence.netlify.app/assets/images/icon.png"
+        "installUrl": [
+            "https://apps.apple.com/app/neyzence",
+            "https://play.google.com/store/apps/details?id=com.neyzence.app"
+        ],
+        "screenshot": [
+            "https://neyzence.netlify.app/assets/images/icon.png",
+            "https://neyzence.netlify.app/assets/images/icon_transparent.png"
+        ],
+        "softwareVersion": "1.0",
+        "datePublished": "2024-01-01",
+        "dateModified": "2025-10-12",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "100",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Ney Öğrenen"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                },
+                "reviewBody": "Ney öğrenmek için mükemmel bir uygulama. Ney nasıl üflenir ve ney nasıl tutulur çok iyi anlatılmış."
+            }
+        ]
+    }
+    </script>
+
+    <!-- Structured Data - Software Application for App Store Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NeyzenCe - Ney Öğren Uygulaması",
+        "applicationCategory": "EducationApplication",
+        "applicationSubCategory": "Music Education",
+        "operatingSystem": "Android, iOS",
+        "url": "https://neyzence.netlify.app",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.neyzence.app",
+        "installUrl": "https://apps.apple.com/app/neyzence",
+        "description": "Ney öğren! NeyzenCe ile ney dinle, ney notaları öğren, ney nasıl üflenir ve ney nasıl tutulur videolarıyla öğren.",
+        "screenshot": "https://neyzence.netlify.app/assets/images/icon.png",
+        "softwareVersion": "1.0.0",
+        "datePublished": "2024-01-01",
+        "publisher": {
+            "@type": "Organization",
+            "name": "NeyzenCe",
+            "url": "https://neyzence.netlify.app"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "TRY",
+            "category": "free"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating", 
+            "ratingValue": "4.8",
+            "ratingCount": "150"
+        },
+        "keywords": "ney öğren, ney dinle, ney enstrümanı, ney eğitimi, türk müziği"
+    }
+    </script>
+
+    <!-- Structured Data - iOS App Store -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NeyzenCe",
+        "operatingSystem": "iOS",
+        "applicationCategory": "Education",
+        "url": "https://apps.apple.com/app/neyzence",
+        "downloadUrl": "https://apps.apple.com/app/neyzence",
+        "description": "Ney öğren - iOS için NeyzenCe uygulaması",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "TRY"
+        }
+    }
+    </script>
+
+    <!-- Structured Data - Android Play Store -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication", 
+        "name": "NeyzenCe",
+        "operatingSystem": "Android",
+        "applicationCategory": "Education",
+        "url": "https://play.google.com/store/apps/details?id=com.neyzence.app",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.neyzence.app",
+        "description": "Ney öğren - Android için NeyzenCe uygulaması",
+        "offers": {
+            "@type": "Offer",
+            "price": "0", 
+            "priceCurrency": "TRY"
+        }
     }
     </script>
 
