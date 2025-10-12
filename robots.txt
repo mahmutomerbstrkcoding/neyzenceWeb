@@ -1,5 +1,5 @@
 # Robots.txt for NeyzenCe Website
-# https://neyzence.netlify.app/robots.txt
+# https://neyzence.com/robots.txt
 
 User-agent: *
 Allow: /
@@ -53,7 +53,7 @@ User-agent: WhatsApp
 Allow: /
 
 # Sitemap location
-Sitemap: https://neyzence.netlify.app/sitemap.xml
+Sitemap: https://neyzence.com/sitemap.xml
 
 # Crawl delay (optional - remove if you want faster crawling)
 # Crawl-delay: 1
