@@ -13,13 +13,10 @@
   NODE_VERSION = "18"
 
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover
-  for = "/*"
-
+  # Cache HTML files for shorter time - important for SEO indexing
+  for = "/*.html"
   [headers.values]
-    # Cache static assets for 1 year
-    Cache-Control = "public, max-age=31536000, immutable"
-
+    Cache-Control = "public, max-age=3600"
     # Security headers
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
@@ -27,25 +24,78 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
-  # Cache HTML files for shorter time
-  for = "/*.html"
-
+  # Cache root index for shorter time
+  for = "/"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  # Cache static assets for 1 year
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Cache other static files
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   # Serve app-ads.txt with correct content type and caching
   for = "/app-ads.txt"
-
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
     Cache-Control = "public, max-age=86400"
 
-[[redirects]]
-  # Redirect all 404s to index.html for SPA behavior (if needed)
-  from = "/*"
-  to = "/index.html"
-  status = 404
+[[headers]]
+  # Serve robots.txt properly for SEO
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  # Serve sitemap.xml properly for SEO
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  # Serve manifest.json properly
+  for = "/manifest.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+    Cache-Control = "public, max-age=86400"
+
+# Removed problematic 404 redirect that was interfering with Google indexing
+# Individual HTML pages should be served directly, not redirected
 
 # Custom domain settings (update when you have a custom domain)
 # [context.production]
