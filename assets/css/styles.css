@@ -1276,50 +1276,149 @@ img[loading="lazy"].loaded {
     line-height: 1.5;
 }
 
-/* GDPR Guide Styles */
-.gdpr-guide {
+/* GDPR Rights Information Styles */
+.gdpr-info {
     background: white;
     padding: 4rem 0;
     border-top: 1px solid rgba(139, 69, 19, 0.1);
 }
 
-.gdpr-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-.gdpr-card {
-    background: var(--light-cream);
-    padding: 2rem;
-    border-radius: 12px;
+.gdpr-intro {
     text-align: center;
-    transition: var(--transition);
-    border: 2px solid transparent;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding: 2rem;
+    background: var(--light-cream);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-brown);
 }
 
-.gdpr-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--primary-brown);
+.gdpr-intro p {
+    color: var(--text-gray);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.rights-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.rights-row {
+    background: var(--light-cream);
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgba(139, 69, 19, 0.1);
+    transition: var(--transition);
+}
+
+.rights-row:hover {
+    transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(139, 69, 19, 0.12);
 }
 
-.gdpr-card h3 {
+.right-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2.5rem;
+}
+
+.right-icon {
+    font-size: 2.5rem;
+    min-width: 60px;
+    text-align: center;
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
+}
+
+.right-content h3 {
     color: var(--primary-brown);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
-.gdpr-card p {
+.right-content p {
     color: var(--text-gray);
-    line-height: 1.6;
+    line-height: 1.7;
     margin-bottom: 1.5rem;
 }
 
-.action-button {
-    margin-top: 1.5rem;
+.right-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.detail-badge {
+    background: var(--primary-brown);
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.gdpr-contact {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.contact-card {
+    background: linear-gradient(135deg, var(--primary-brown), #a0522d);
+    color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(139, 69, 19, 0.2);
+}
+
+.contact-card h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-card p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-card ul {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-card ul li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.contact-card a {
+    color: #f4e4bc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-card a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .btn-secondary {
@@ -1477,9 +1576,33 @@ img[loading="lazy"].loaded {
         padding: 2rem;
     }
 
-    .gdpr-content {
-        grid-template-columns: 1fr;
+    .gdpr-info {
+        padding: 3rem 0;
+    }
+    
+    .gdpr-intro {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .right-info {
+        flex-direction: column;
+        text-align: center;
         gap: 1.5rem;
+        padding: 2rem;
+    }
+    
+    .right-icon {
+        margin: 0 auto;
+    }
+    
+    .detail-badge {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+    }
+    
+    .contact-card {
+        padding: 2rem;
     }
 
     .security-features {
@@ -1522,6 +1645,28 @@ img[loading="lazy"].loaded {
     .footer-legal-links a {
         width: 120px;
         text-align: center;
+    }
+    
+    .right-info {
+        padding: 1.5rem;
+    }
+    
+    .right-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    
+    .right-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    .contact-card {
+        padding: 1.5rem;
+    }
+    
+    .contact-card h3 {
+        font-size: 1.3rem;
     }
 }
 
