@@ -57,7 +57,16 @@ const translations = {
         'footer.support_section': 'Support',
         'footer.help': 'Help Center',
         'footer.terms_short': 'Terms',
-        'footer.privacy_short': 'Privacy'
+        'footer.privacy_short': 'Privacy',
+        'ney.learning.title': 'Learn Ney - Traditional Ney Education with Master Neyzen Cemil Baştürk',
+        'ney.dinle.title': 'Listen to Ney - Traditional Ney Music',
+        'ney.dinle.description': 'Discover traditional ney pieces masterfully performed by Neyzen Cemil Baştürk with our ney listening feature. Learn to play ney by listening to each ney melody.',
+        'ney.calmak.title': 'Play Ney - Step by Step Ney Education',
+        'ney.calmak.description': 'Learning to play ney has never been this easy! Learn how to play ney, ney techniques, and ney breathing methods under the guidance of Neyzen Cemil Baştürk.',
+        'neyzen.title': 'Becoming a Neyzen - Learning Ney with Master Instructor',
+        'neyzen.description': 'Benefit from Cemil Baştürk\'s years of experience to become a real neyzen. Discover the subtleties of ney art with traditional ney education.',
+        'cemil.basturk.title': 'Neyzen Cemil Baştürk - Traditional Ney Master',
+        'cemil.basturk.description': 'Cemil Baştürk is one of the important representatives of traditional Turkish music, teaching ney with years of experience. Enjoy learning ney with Neyzen Cemil Baştürk, who is an expert in ney playing techniques, ney breathing methods, and ney education.'
     },
     tr: {
         'nav.home': 'Ana Sayfa',
@@ -114,7 +123,16 @@ const translations = {
         'footer.support_section': 'Destek',
         'footer.help': 'Yardım Merkezi',
         'footer.terms_short': 'Şartlar',
-        'footer.privacy_short': 'Gizlilik'
+        'footer.privacy_short': 'Gizlilik',
+        'ney.learning.title': 'Ney Öğren - Neyzen Cemil Baştürk ile Geleneksel Ney Eğitimi',
+        'ney.dinle.title': 'Ney Dinle - Geleneksel Ney Müziği',
+        'ney.dinle.description': 'Ney dinle özelliği ile Neyzen Cemil Baştürk\'ün ustaca icra ettiği geleneksel ney parçalarını keşfedin. Her ney melodisini dinleyerek ney çalmayı öğrenin.',
+        'ney.calmak.title': 'Ney Çalmak - Adım Adım Ney Eğitimi',
+        'ney.calmak.description': 'Ney çalmak öğrenmek hiç bu kadar kolay olmamıştı! Neyzen Cemil Baştürk\'ün rehberliğinde ney nasıl çalınır, ney teknikleri ve ney üfleme yöntemlerini öğrenin.',
+        'neyzen.title': 'Neyzen Olmak - Usta Eğitmen ile Ney Öğrenme',
+        'neyzen.description': 'Gerçek bir neyzen olmak için Cemil Baştürk\'ün yıllarca süren deneyiminden faydalanın. Geleneksel ney eğitimi ile ney sanatının inceliklerini keşfedin.',
+        'cemil.basturk.title': 'Neyzen Cemil Baştürk - Geleneksel Ney Ustası',
+        'cemil.basturk.description': 'Cemil Baştürk, yılların deneyimiyle ney öğretmenliği yapan, geleneksel Türk müziğinin önemli temsilcilerinden biri. Ney çalma teknikleri, ney üfleme metodları ve ney eğitimi konularında uzman olan Neyzen Cemil Baştürk ile ney öğrenmenin keyfini çıkarın.'
     }
 };
 
