@@ -1579,28 +1579,28 @@ img[loading="lazy"].loaded {
     .gdpr-info {
         padding: 3rem 0;
     }
-    
+
     .gdpr-intro {
         padding: 1.5rem;
         margin-bottom: 2rem;
     }
-    
+
     .right-info {
         flex-direction: column;
         text-align: center;
         gap: 1.5rem;
         padding: 2rem;
     }
-    
+
     .right-icon {
         margin: 0 auto;
     }
-    
+
     .detail-badge {
         font-size: 0.8rem;
         padding: 0.3rem 0.8rem;
     }
-    
+
     .contact-card {
         padding: 2rem;
     }
@@ -1615,56 +1615,56 @@ img[loading="lazy"].loaded {
     .security-features {
         grid-template-columns: 1fr;
     }
-    
+
     .footer-navigation {
         grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
     }
-    
+
     .footer-section h4::after {
         left: 50%;
         transform: translateX(-50%);
     }
-    
+
     .footer-logo {
         justify-content: center;
         margin-bottom: 2rem;
     }
-    
+
     .footer-logo-text {
         font-size: 1.5rem;
     }
-    
+
     .footer-legal-links {
         flex-direction: column;
         align-items: center;
         gap: 0.8rem;
     }
-    
+
     .footer-legal-links a {
         width: 120px;
         text-align: center;
     }
-    
+
     .right-info {
         padding: 1.5rem;
     }
-    
+
     .right-icon {
         width: 50px;
         height: 50px;
         font-size: 2rem;
     }
-    
+
     .right-content h3 {
         font-size: 1.1rem;
     }
-    
+
     .contact-card {
         padding: 1.5rem;
     }
-    
+
     .contact-card h3 {
         font-size: 1.3rem;
     }
