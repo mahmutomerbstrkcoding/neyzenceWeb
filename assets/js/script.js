@@ -40,7 +40,24 @@ const translations = {
         'footer.terms': 'Terms of Service',
         'footer.privacy': 'Privacy Policy',
         'footer.contact': 'Contact',
-        'footer.copyright': '&copy; 2024 NeyzenCe. All rights reserved. All musical content by Neyzen Cemil Baştürk.'
+        'footer.copyright': '&copy; 2024 NeyzenCe. All rights reserved. All musical content by Neyzen Cemil Baştürk.',
+        'legal.title': 'Legal Information & App Policies',
+        'legal.description': 'Before downloading and using the NeyzenCe app, please review our comprehensive legal documentation to understand your rights and responsibilities.',
+        'legal.terms_title': 'Terms of Service',
+        'legal.terms_description': 'Complete terms and conditions for using NeyzenCe app, including user rights, content licensing, and service limitations.',
+        'legal.read_terms': 'Read Full Terms →',
+        'legal.privacy_title': 'Privacy Policy',
+        'legal.privacy_description': 'Detailed information about how we collect, use, and protect your personal data in compliance with GDPR and international privacy standards.',
+        'legal.read_privacy': 'Read Privacy Policy →',
+        'footer.app_section': 'App',
+        'footer.features': 'Features',
+        'footer.download': 'Download',
+        'footer.about': 'About',
+        'footer.legal_section': 'Legal',
+        'footer.support_section': 'Support',
+        'footer.help': 'Help Center',
+        'footer.terms_short': 'Terms',
+        'footer.privacy_short': 'Privacy'
     },
     tr: {
         'nav.home': 'Ana Sayfa',
@@ -80,7 +97,24 @@ const translations = {
         'footer.terms': 'Hizmet Şartları',
         'footer.privacy': 'Gizlilik Politikası',
         'footer.contact': 'İletişim',
-        'footer.copyright': '&copy; 2024 NeyzenCe. Tüm hakları saklıdır. Tüm müzikal içerik Neyzen Cemil Baştürk\'e aittir.'
+        'footer.copyright': '&copy; 2024 NeyzenCe. Tüm hakları saklıdır. Tüm müzikal içerik Neyzen Cemil Baştürk\'e aittir.',
+        'legal.title': 'Hukuki Bilgiler ve Uygulama Politikaları',
+        'legal.description': 'NeyzenCe uygulamasını indirmeden ve kullanmadan önce, haklarınızı ve sorumluluklarınızı anlamak için kapsamlı yasal belgelerimizi inceleyin.',
+        'legal.terms_title': 'Hizmet Şartları',
+        'legal.terms_description': 'NeyzenCe uygulamasını kullanmaya yönelik tam şartlar ve koşullar, kullanıcı hakları, içerik lisanslama ve hizmet sınırlamaları dahil.',
+        'legal.read_terms': 'Tam Şartları Oku →',
+        'legal.privacy_title': 'Gizlilik Politikası',
+        'legal.privacy_description': 'GDPR ve uluslararası gizlilik standartlarına uygun olarak kişisel verilerinizi nasıl topladığımız, kullandığımız ve koruduğumuz hakkında detaylı bilgi.',
+        'legal.read_privacy': 'Gizlilik Politikasını Oku →',
+        'footer.app_section': 'Uygulama',
+        'footer.features': 'Özellikler',
+        'footer.download': 'İndir',
+        'footer.about': 'Hakkında',
+        'footer.legal_section': 'Yasal',
+        'footer.support_section': 'Destek',
+        'footer.help': 'Yardım Merkezi',
+        'footer.terms_short': 'Şartlar',
+        'footer.privacy_short': 'Gizlilik'
     }
 };
 

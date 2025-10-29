@@ -999,3 +999,420 @@ img[loading="lazy"] {
 img[loading="lazy"].loaded {
     opacity: 1;
 }
+
+/* Legal Notice Section Styles */
+.legal-notice {
+    background: var(--light-cream);
+    padding: 4rem 0;
+    border-top: 1px solid rgba(139, 69, 19, 0.1);
+}
+
+.legal-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.legal-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.legal-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
+    text-align: left;
+    border: 1px solid rgba(139, 69, 19, 0.1);
+    transition: var(--transition);
+}
+
+.legal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.15);
+}
+
+.legal-card h3 {
+    color: var(--primary-brown);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.legal-card h3 a {
+    color: var(--primary-brown);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.legal-card h3 a:hover {
+    color: var(--dark-brown);
+}
+
+.legal-card p {
+    color: var(--text-gray);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.legal-link {
+    color: var(--primary-brown);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+}
+
+.legal-link:hover {
+    color: var(--dark-brown);
+    transform: translateX(5px);
+}
+
+/* Enhanced Footer Styles */
+.footer-navigation {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section h4 {
+    color: var(--primary-brown);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer-section a {
+    color: var(--text-gray);
+    text-decoration: none;
+    transition: var(--transition);
+    padding: 0.3rem 0;
+}
+
+.footer-section a:hover {
+    color: var(--primary-brown);
+    transform: translateX(3px);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-top: 1px solid rgba(139, 69, 19, 0.1);
+    padding-top: 1.5rem;
+}
+
+.footer-legal-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-legal-links a {
+    color: var(--text-gray);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.footer-legal-links a:hover {
+    color: var(--primary-brown);
+}
+
+/* FAQ and Educational Content Styles */
+.terms-faq, .privacy-faq {
+    background: white;
+    padding: 4rem 0;
+    border-top: 1px solid rgba(139, 69, 19, 0.1);
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.faq-item {
+    background: var(--light-cream);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-brown);
+    transition: var(--transition);
+}
+
+.faq-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.1);
+}
+
+.faq-item h3 {
+    color: var(--primary-brown);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.faq-item p {
+    color: var(--text-gray);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Educational Content Styles */
+.legal-education {
+    background: var(--light-cream);
+    padding: 4rem 0;
+}
+
+.education-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.education-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(139, 69, 19, 0.08);
+    border: 1px solid rgba(139, 69, 19, 0.1);
+    transition: var(--transition);
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(139, 69, 19, 0.15);
+}
+
+.education-card h3 {
+    color: var(--primary-brown);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.education-card p {
+    color: var(--text-gray);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.education-card ul {
+    color: var(--text-gray);
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.education-card ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* GDPR Guide Styles */
+.gdpr-guide {
+    background: white;
+    padding: 4rem 0;
+    border-top: 1px solid rgba(139, 69, 19, 0.1);
+}
+
+.gdpr-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.gdpr-card {
+    background: var(--light-cream);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.gdpr-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-brown);
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.12);
+}
+
+.gdpr-card h3 {
+    color: var(--primary-brown);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.gdpr-card p {
+    color: var(--text-gray);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.action-button {
+    margin-top: 1.5rem;
+}
+
+.btn-secondary {
+    background: var(--primary-brown);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background: var(--dark-brown);
+    transform: translateY(-2px);
+}
+
+/* Security Education Styles */
+.security-education {
+    background: var(--light-cream);
+    padding: 4rem 0;
+}
+
+.security-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.security-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.08);
+    transition: var(--transition);
+}
+
+.security-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.15);
+}
+
+.security-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.security-item h3 {
+    color: var(--primary-brown);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.security-item p {
+    color: var(--text-gray);
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+.security-contact {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 3rem;
+    text-align: center;
+    border: 2px solid var(--primary-brown);
+}
+
+.security-contact h3 {
+    color: var(--primary-brown);
+    margin-bottom: 1rem;
+}
+
+.security-contact p {
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+.security-contact a {
+    color: var(--primary-brown);
+    font-weight: 600;
+}
+
+/* Mobile responsiveness for legal section */
+@media (max-width: 768px) {
+    .legal-notice {
+        padding: 2.5rem 0;
+    }
+    
+    .legal-links {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    .legal-card {
+        padding: 1.5rem;
+    }
+    
+    .footer-navigation {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .faq-item {
+        padding: 1.5rem;
+    }
+    
+    .education-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .education-card {
+        padding: 2rem;
+    }
+    
+    .gdpr-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .security-features {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .security-features {
+        grid-template-columns: 1fr;
+    }
+}
